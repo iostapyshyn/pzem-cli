@@ -1,6 +1,6 @@
 # pzem-cli
 
-A command-line interface for the PZEM004T energy monitor as a demo of the embedded-hal rust driver.
+A command-line interface for the PZEM004T energy monitor as a front-end for the embedded-hal rust driver.
 
 ## Usage
 ```console
