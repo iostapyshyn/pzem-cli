@@ -27,4 +27,11 @@ The default timeout is 500 milliseconds.
 ```console
 foo@bar:~$ pzem-cli -t 1000 /dev/ttyACM0 addr bf
 foo@bar:~$ pzem-cli -a bf /dev/ttyACM0 read
+Voltage: 241.6 V
+Current: 0.000 A
+Power: 0.0 W
+Energy: 0.000 kWh
+Frequency: 50.0 Hz
+Power factor: 0.00
+Alarm: off
 ```
