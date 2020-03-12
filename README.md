@@ -12,8 +12,8 @@ foo@bar:~$ pzem-cli [OPTIONS] <PORT> <SUBCOMMAND>
 |       -a, --addr <addr> | Slave address of the sensor in hexadecimal format (e.g. 5a) |
 | -t, --timeout <timeout> |                  Response awaiting timeout in milliseconds. |
 
-The address used by default is the universal address for single-slave environments: 0xF8. Every slave is guaranteed to respond to that address.
-The default timeout is 500 milliseconds.
+The address used by default is the universal address for single-slave environments: `0xf8`. Every slave is guaranteed to respond to that address.
+The default timeout is `500` milliseconds.
 
 ### Commands
 |         Command |                                                                             Description |
